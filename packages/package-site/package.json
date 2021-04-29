@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "@monorepo/package-site",
+  "version": "0.0.1",
+  "description": "package-site",
+  "author": "yrq110 <yrq1025@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --progress --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@monorepo/package-b": "^0.0.1"
+  }
+}
